@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Jetpack Compose presentation</title>
+    <link rel="stylesheet" href="/node_modules/reveal.js/dist/reveal.css" />
+    <link rel="stylesheet" href="/node_modules/reveal.js/dist/theme/night.css" />
+    <link rel="stylesheet" href="/node_modules/reveal.js/plugin/highlight/monokai.css" />
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>🤖</section>
+            <section data-markdown="/slides/00-intro.md"></section>
+            <section data-markdown="/slides/01-find_view_by_id.md"></section>
+            <section data-markdown="/slides/02-composable-1.md"></section>
+            <section data-markdown="/slides/03-composable-2.md"></section>
+            <section data-markdown="/slides/04-list_primitive.md"></section>
+            <section data-markdown="/slides/05-list_composable.md"></section>
+            <section data-markdown="/slides/06-interop.md"></section>
+        </div>
+    </div>
+
+    <script src="/node_modules/reveal.js/dist/reveal.js"></script>
+    <script src="/node_modules/reveal.js/plugin/markdown/markdown.js"></script>
+    <script src="/node_modules/reveal.js/plugin/highlight/highlight.js"></script>
+    <script>
+        Reveal.initialize({
+            plugins: [RevealMarkdown, RevealHighlight],
+        });
+    </script>
+</body>
+
+</html>
